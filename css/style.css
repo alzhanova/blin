@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1170px;
+	margin: 0 auto;
+}
+svg{
+    width: 60%;
+}
+.phone{
+    font-size: 25px;
+    font-weight: 600;
+}
+.phone-a{
+    font-size: 16px;
+    border: 1px solid #9EAE40;
+    background: #9EAE40;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navbar-text{
+    text-align: center;
+}
+.bg {
+    background-image: url('../img/bg.png');
+    background-size: cover;
+}
+.bg-table{
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+video{
+    width: 100%;
+}
+.video {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .video video {
+    width: 100%;
+    display: block;
+  }
+  .video:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  .menu div{
+      text-align: center;
+      color: #ffffff;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px;
+    height: 150px;
+  }
+  .menu{
+      display: flex;
+      justify-content: space-between;
+  }
+  .menu-p{
+      color: #9EAE40;
+      font-size: 38px;
+      font-weight: 600;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  .zav{
+      background-image: url('../img/zavt-bl.jpg');
+  }
+  .sup{
+      background-image: url(../img/supy-bl.jpg);
+  }
+  .main{
+      background-image: url(../img/osnov-bl.jpg);
+  }
+  .slad{
+      background-image: url(../img/sladkie.jpg);
+  }
+  .pasta{
+      background-image: url(../img/pasta-bl.jpg);
+  }
+  .set{
+      background-image: url(../img/set-bl.jpg);
+  }
+  .desert{
+      background-image: url(../img/desert-bl.jpg);
+  }
+  .salad{
+      background-image: url(../img/salat-bl.jpg);
+  }
+  .garnir{
+      background-image: url(../img/garnir-bl.jpg);
+  }
+  .syt{
+      background-image: url(../img/sytnye-bl.jpg);
+  }
+  .fast{
+      background-image: url(../img/burger-bl.jpg);
+  }
+  .pizza{
+      background-image: url(../img/pizza-bl.jpg);
+  }
+  .tea{
+      background-image: url(../img/tea-bl.jpg);
+  }
+  .coffee{
+      background-image: url(../img/coffee-bl.jpg);
+  }
+  .smooth{
+      background-image: url(../img/smoothy-bl.jpg);
+  }
+  .prohlad{
+      background-image: url(../img/rohlad-bl.jpg);
+  }
+  .teeaa{
+      background-image: url(../img/teeaa-bl.jpg);
+  }
+  .milk{
+      background-image: url(../img/milk.jpeg);
+  }
+  .lemon{
+      background-image: url(../img/lemon-bl.jpg);
+  }
+  .fresh{
+      background-image: url(../img/fresh-bl.jpg);
+  }
+  .bg-img-1{
+      background-image: url(../img/news1.PNG);
+      background-size: cover;
+	background-position: center;
+  }
+  .bg-img-2{
+    background-image: url(../img/news2.PNG);
+    background-size: cover;
+	background-position: center;
+}
+.bg-img-3{
+    background-image: url(../img/news3.PNG);
+    background-size: cover;
+	background-position: center;
+}
+.slider div{
+    height: 470px;
+}
+.interier div{
+    height: 250px;
+    margin: 10px;
+}
+.menu a {
+    text-decoration: none;
+    margin: 5px;
+    width: 100%;
+}
+.bg-int-1{
+    background-image: url(../img/int1\ \(1\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-2{
+    background-image: url(../img/int1\ \(2\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-3{
+    background-image: url(../img/int1\ \(3\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-4{
+    background-image: url(../img/int1\ \(4\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-5{
+    background-image: url(../img/int1\ \(6\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-6{
+    background-image: url(../img/int1\ \(7\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-7{
+    background-image: url(../img/int1\ \(8\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-8{
+    background-image: url(../img/int1\ \(9\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-9{
+    background-image: url(../img/int1\ \(10\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-10{
+    background-image: url(../img/int1\ \(11\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.bg-int-11{
+    background-image: url(../img/int1\ \(12\).jpg);
+    background-size: cover;
+	background-position: center;
+}
+.conta{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #000;
+}
+.conta a {
+	color: #000;
+}
+.map{
+    margin-top: 20px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.table{
+    padding-top: 20px;
+}
+
+@media (max-width: 300px){
+.menu{
+    flex-direction: column;
+}
+}
+@media (min-width: 301px) and (max-width: 410px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar-brand{
+        width: 60%;
+    }
+    svg{
+        width: 100%;
+    }
+    .slider div{
+        height: 150px;
+    }
+    .menu-p{
+        font-size: 22px;
+    }
+    .menu a{
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #text{
+        font-size: 16px;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .menu div{
+        font-size: 16px;
+    }
+}
+@media (min-width: 411px) and (max-width: 420px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar-brand{
+        width: 60%;
+    }
+    svg{
+        width: 100%;
+    }
+    .slider div{
+        height: 150px;
+    }
+    .menu-p{
+        font-size: 22px;
+    }
+    .menu a{
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #text{
+        font-size: 16px;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .menu div{
+        font-size: 16px;
+    }
+}
+@media (min-width: 421px) and (max-width: 639px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar-brand{
+        width: 60%;
+    }
+    svg{
+        width: 100%;
+    }
+    .slider div{
+        height: 180px;
+    }
+    .menu-p{
+        font-size: 22px;
+    }
+    .menu a{
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #text{
+        font-size: 16px;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .menu div{
+        font-size: 16px;
+    }
+}
+@media (min-width: 640px) and (max-width: 767px){
+    .navbar-collapse{
+        text-align: center;
+    }
+    .menu div{
+        font-size: 15px;
+        height: 100px;
+    }
+    .slider div{
+        height: 240px;
+    }
+    #text{
+        font-size: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px){
+    .navbar-collapse{
+        text-align: center;
+    }
+    .slider div{
+        height: 300px;
+    }
+    #text{
+        font-size: 35px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1100px){
+    .slider div{
+        height: 450px;
+    }
+}
