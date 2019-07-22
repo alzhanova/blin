@@ -60,23 +60,28 @@ video{
     left: 50%;
     color: #ffffff;
     font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
+    z-index: 10 !important;
+    font-family: cursive, Tahoma;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
   }
   .menu div{
-      text-align: center;
-      color: #ffffff;
-      font-size: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
       width: 100%;
     background-size: cover;
     background-position: center;
-    padding: 50px 10px;
     height: 150px;
   }
+  .menu p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 50px 10px;
+    z-index: 50;
+  }
+
   .menu{
       display: flex;
       justify-content: space-between;
@@ -89,83 +94,113 @@ video{
       margin-bottom: 20px;
       text-align: center;
   }
+  .overlay {
+    position: relative;
+  }
+  
+  .overlay:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:0;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
   .zav{
-      background-image: url('../img/zavt-bl.jpg');
+      background-image: url('../img/zavt.jpg');
+      
   }
   .sup{
-      background-image: url(../img/supy-bl.jpg);
+      background-image: url(../img/supy-menu.jpg);
   }
   .main{
-      background-image: url(../img/osnov-bl.jpg);
+      background-image: url(../img/main-menu.jpg);
   }
   .slad{
-      background-image: url(../img/sladkie.jpg);
+      background-image: url(../img/slad-menu.jpg);
   }
   .pasta{
-      background-image: url(../img/pasta-bl.jpg);
+      background-image: url(../img/pasta-menu.jpg);
   }
   .set{
-      background-image: url(../img/set-bl.jpg);
+      background-image: url(../img/sety-menu.jpg);
   }
   .desert{
-      background-image: url(../img/desert-bl.jpg);
+      background-image: url(../img/desert.jpg);
   }
   .salad{
-      background-image: url(../img/salat-bl.jpg);
+      background-image: url(../img/salat.jpg);
   }
   .garnir{
-      background-image: url(../img/garnir-bl.jpg);
+      background-image: url(../img/garnir.jpg);
   }
   .syt{
-      background-image: url(../img/sytnye-bl.jpg);
+      background-image: url(../img/sytnye.jpg);
   }
   .fast{
-      background-image: url(../img/burger-bl.jpg);
+      background-image: url(../img/burger.jpg);
   }
   .pizza{
-      background-image: url(../img/pizza-bl.jpg);
+      background-image: url(../img/pizza.jpg);
   }
   .tea{
-      background-image: url(../img/tea-bl.jpg);
+      background-image: url(../img/tea.jpg);
   }
   .coffee{
-      background-image: url(../img/coffee-bl.jpg);
+      background-image: url(../img/coffee.jpg);
   }
   .smooth{
-      background-image: url(../img/smoothy-bl.jpg);
+      background-image: url(../img/smoothy.jpg);
   }
   .prohlad{
-      background-image: url(../img/rohlad-bl.jpg);
+      background-image: url(../img/rohlad.jpg);
   }
   .teeaa{
-      background-image: url(../img/teeaa-bl.jpg);
+      background-image: url(../img/teeaa.jpg);
   }
   .milk{
       background-image: url(../img/milk.jpeg);
   }
   .lemon{
-      background-image: url(../img/lemon-bl.jpg);
+      background-image: url(../img/lemon.jpg);
   }
   .fresh{
-      background-image: url(../img/fresh-bl.jpg);
+      background-image: url(../img/fresh.jpg);
   }
   .bg-img-1{
-      background-image: url(../img/news1.PNG);
+      background-image: url(../img/news1-min.PNG);
       background-size: cover;
 	background-position: center;
   }
   .bg-img-2{
-    background-image: url(../img/news2.PNG);
+    background-image: url(../img/news2-min.PNG);
     background-size: cover;
 	background-position: center;
 }
 .bg-img-3{
-    background-image: url(../img/news3.PNG);
+    background-image: url(../img/news3-min.PNG);
+    background-size: cover;
+	background-position: center;
+}
+.bg-img-4{
+    background-image: url(../img/акция.png);
+    background-size: cover;
+	background-position: center;
+}
+.bg-img-5{
+    background-image: url(../img/акция\ 1.png);
     background-size: cover;
 	background-position: center;
 }
 .slider div{
     height: 470px;
+}
+td{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .interier div{
     height: 250px;
@@ -177,57 +212,57 @@ video{
     width: 100%;
 }
 .bg-int-1{
-    background-image: url(../img/int1\ \(1\).jpg);
+    background-image: url(../img/int1\ \(1\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-2{
-    background-image: url(../img/int1\ \(2\).jpg);
+    background-image: url(../img/int1\ \(2\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-3{
-    background-image: url(../img/int1\ \(3\).jpg);
+    background-image: url(../img/int1\ \(3\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-4{
-    background-image: url(../img/int1\ \(4\).jpg);
+    background-image: url(../img/int1\ \(4\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-5{
-    background-image: url(../img/int1\ \(6\).jpg);
+    background-image: url(../img/int1\ \(6\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-6{
-    background-image: url(../img/int1\ \(7\).jpg);
+    background-image: url(../img/int1\ \(7\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-7{
-    background-image: url(../img/int1\ \(8\).jpg);
+    background-image: url(../img/int1\ \(8\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-8{
-    background-image: url(../img/int1\ \(9\).jpg);
+    background-image: url(../img/int1\ \(9\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-9{
-    background-image: url(../img/int1\ \(10\).jpg);
+    background-image: url(../img/int1\ \(10\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-10{
-    background-image: url(../img/int1\ \(11\).jpg);
+    background-image: url(../img/int1\ \(11\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
 .bg-int-11{
-    background-image: url(../img/int1\ \(12\).jpg);
+    background-image: url(../img/int1\ \(12\)-min.jpg);
     background-size: cover;
 	background-position: center;
 }
@@ -243,6 +278,7 @@ video{
 .map{
     margin-top: 20px;
 }
+
 .body{
     display: flex;
     justify-content: center;
@@ -285,6 +321,7 @@ video{
     }
     #text{
         font-size: 16px;
+        z-index: 10;
     }
     .navbar-collapse{
         text-align: center;
