@@ -108,7 +108,12 @@ video{
     z-index:0;
     background-color: rgba(0,0,0,0.5);
   }
-  
+  .box:hover{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: all 0.3s;
+  }
   .zav{
       background-image: url('../img/zavt.jpg');
       
